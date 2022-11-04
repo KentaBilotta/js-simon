@@ -40,11 +40,10 @@ function countdown() {
                 const userInput = prompt("Inserisci il numero "+ i);
                 if (Numbers.includes(parseInt(userInput))) {
                     points++;
-                    console.log(points);
-                } else {
-                    eleNumbers.innerHTML = "Hai indovinato: " + points + " numeri";
+                    console.log("Numero indovinato: " + userInput);
                 }
             }
+            eleNumbers.innerHTML = "Hai indovinato: " + points + " numeri";
         }
         clearInterval(timer);
     }
