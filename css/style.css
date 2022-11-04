@@ -10,3 +10,34 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.timer{
+    margin: 20px;
+    font-size: 2rem;
+    background-color: gold;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers{
+    margin: 20px;
+    font-size: 2rem;
+    background-color: pink;
+    border: 1px solid black;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    width: 120px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
