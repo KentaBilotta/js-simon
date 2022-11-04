@@ -1,6 +1,7 @@
 let eleTimer = document.querySelector(".timer");
 const btnPlay = document.querySelector("#btn-play");
 let eleNumbers = document.querySelector(".numbers");
+let guessedNumbers = document.querySelector(".guessed-numbers");
 
 btnPlay.addEventListener("click", function() {
 const timer = setInterval(countdown, 1000);
@@ -40,7 +41,7 @@ function countdown() {
                 const userInput = prompt("Inserisci il numero "+ i);
                 if (Numbers.includes(parseInt(userInput))) {
                     points++;
-                    console.log("Numero indovinato: " + userInput);
+                    guessedNumbers.innerHTML += userInput + ", ";
                 }
             }
             eleNumbers.innerHTML = "Hai indovinato: " + points + " numeri";

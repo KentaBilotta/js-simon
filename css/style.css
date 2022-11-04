@@ -34,7 +34,7 @@ h1{
     margin: 10px;
 }
 
-.numbers{
+.numbers, .guessed-numbers{
     margin: 20px;
     font-size: 2rem;
     background-color: pink;
