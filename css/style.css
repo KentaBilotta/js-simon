@@ -11,6 +11,10 @@ body{
     align-items: center;
 }
 
+h1{
+    margin: 10px;
+}
+
 .timer{
     margin: 20px;
     font-size: 2rem;
@@ -23,12 +27,19 @@ body{
     align-items: center;
 }
 
+.description{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
 .numbers{
     margin: 20px;
     font-size: 2rem;
     background-color: pink;
     border: 1px solid black;
-    width: 300px;
+    width: 500px;
     height: 70px;
     display: flex;
     justify-content: center;
